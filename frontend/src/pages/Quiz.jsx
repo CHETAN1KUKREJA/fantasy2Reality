@@ -117,8 +117,8 @@ const Quiz = () => {
   };
 
   const swipeHandlers = useSwipeable({
-    onSwipedRight: () => handleSwipe("left"),
-    onSwipedLeft: () => handleSwipe("right"),
+    onSwipedLeft: () => handleSwipe("left"),
+    onSwipedRight: () => handleSwipe("right"),
     preventDefaultTouchmoveEvent: true,
     trackMouse: true,
   });
